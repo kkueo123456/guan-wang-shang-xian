@@ -1,0 +1,158 @@
+@media screen and (max-width: 768px) {
+  .appr-show-container-Top .title h3 {
+    font-size: 18px;
+  }
+  .appr-show .appr-show-container-Top p {
+    font-size: 13px;
+  }
+  .appr-bottom-left-top h3 {
+    font-size: 18px !important;
+  }
+  .appr-person-bottom .appr-bottom-left-top p {
+    font-size: 13px;
+  }
+  .appr-bottom-left-top {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .publicTit p {
+    font-size: 12px;
+  }
+  .publicTit h3 {
+    font-size: 18px !important;
+  }
+  .appr-bottom-left-bottom .baozhang p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .process-list ul li .list-text p {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 0;
+  }
+  .wrap .wuyou {
+    padding-bottom: 8%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .process-list ul li {
+    margin-left: 5%;
+  }
+}
+.appr-banner .appr-container {
+  padding: 0;
+}
+.appr-banner img {
+  width: 100%;
+  height: 100%;
+  max-height: 590px;
+}
+.appr-show {
+  margin-bottom: 4%;
+}
+.appr-show-container-Top {
+  text-align: center;
+}
+.appr-show-container {
+  padding-top: 4%;
+  padding-bottom: 20px;
+}
+.appr-show-container-Top .title h3 {
+  font-weight: bolder;
+}
+.appr-show-container-Top p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 3%;
+}
+.appr-show-container-Bottom {
+  text-align: center;
+}
+.appr-person-title {
+  margin-bottom: 4%;
+}
+.appr-person-title h3 {
+  font-weight: bolder;
+}
+.appr-person-title p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.appr-person-img img {
+  width: 120%;
+  height: 100%;
+}
+.appr-person-bottom {
+  background-color: #f0f0f0;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.appr-bottom-left img {
+  width: 100%;
+  height: 100%;
+}
+.appr-bottom-left-top h5 {
+  font-weight: bolder;
+}
+.appr-bottom-left-top h3 {
+  font-weight: bolder;
+  margin-bottom: 5%;
+}
+.appr-bottom-left-top p {
+  font-size: 15px;
+  line-height: 30px;
+}
+.appr-bottom-left-bottom {
+  margin-top: 8%;
+}
+.appr-bottom-left-bottom-text {
+  padding-top: 15px;
+}
+.baozhang p {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.process {
+  padding-top: 5%;
+}
+.publicTit h3 {
+  text-align: center;
+  font-weight: bolder;
+}
+.publicTit p {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 3%;
+}
+.process-list ul {
+  margin-bottom: 0;
+}
+.process-list ul li {
+  border: 1px solid #efefef;
+  padding-bottom: 28px;
+  margin-bottom: 15px;
+}
+.process-list ul li img {
+  width: 100%;
+  height: 100%;
+}
+.process-list ul li .list-img {
+  height: 65%;
+  margin-bottom: 10px;
+}
+.list-text h4 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.list-text p {
+  margin-bottom: 0;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.wuyou {
+  padding-bottom: 4%;
+  padding-top: 2%;
+}
+.wuyou p {
+  margin-top: 1%;
+}

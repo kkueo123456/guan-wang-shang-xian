@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/public/reset.css">
+    <link rel="stylesheet" href="./css/base/bootstrap.min.css">
+    <style>
+        .nav {
+            padding-top: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            box-sizing: border-box;
+        }
+
+        .nav .d-flex {
+            width: 100%;
+        }
+
+        .navRight ul {
+            display: flex;
+        }
+
+        .navRight ul li a {
+            font-size: 13px;
+            margin-left: .3rem;
+            text-decoration: none;
+            color: #ccc;
+        }
+
+        .navRight ul li a:hover {
+            color: white;
+        }
+
+        .navRight ul li .active {
+            color: white;
+        }
+
+
+
+        .navLeft img {
+            width: 100%;
+            height: 65%;
+        }
+
+        @media screen and (min-width:1000px) {
+            .navRight ul li a {
+                margin-left: 30px;
+            }
+
+        }
+
+        @media screen and (max-width:768px) {
+            .nav .container {
+                padding-right: 5px;
+            }
+
+            .navRight {
+                width: 100%;
+            }
+
+            .navRight ul {
+                justify-content: space-around;
+            }
+        }
+
+        @media screen and (max-width:320px) {
+            .navLeft .navLeft-logo {
+                display: none !important;
+            }
+        }
+
+        .nav-animate {
+            background: rgb(245, 244, 244);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            position: fixed;
+            width: 100%;
+            z-index: 99;
+            animation: 300ms ease-in-out 0s fadeInDown;
+
+        }
+
+        @keyframes fadeInDown {
+            from {
+                transform: translate3d(0, -100%, 0);
+            }
+
+            to {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 公共的导航 -->
+    <!-- 头部导航 -->
+    <div class="container-fluid nav ">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-between">
+                    <div class="navLeft"><img src="/img/index/Logo.png" alt=""
+                            class="col-md-11 col-lg-11 d-none d-md-block"></div>
+                    <div class="navRight float-right">
+                        <ul>
+                            <li><a href="index.html" title="首页">首页</a></li>
+                            <li><a href="appraisal.html" title="权威鉴定">权威鉴定</a></li>
+                            <li><a href="sell.html" title="回收寄卖">出售/寄卖</a></li>
+                            <li><a href="list.html" title="商品展示">商品展示</a></li>
+                            <li><a href="about.html" title="关于我们">关于我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/base/jquery-1.11.3.min.js"></script>
+    <script src="js/base/bootstrap.min.js"></script>
+    <script src="js/nav/nav.js"></script>
+
+    <script>
+
+    </script>
+</body>
+
+</html>

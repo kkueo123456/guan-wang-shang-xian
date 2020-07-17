@@ -1,0 +1,100 @@
+@media screen and (max-width: 768px) {
+  .page-container p {
+    text-align: left !important;
+  }
+}
+.page-container {
+  padding-bottom: 4%;
+  padding-top: 2%;
+}
+.page-container .title-logo-row {
+  padding-left: 0 !important;
+}
+.page-container .title-logo-row .title-logo {
+  padding-left: 0 !important;
+}
+.page-container .title-logo-row .title-logo img {
+  width: 100%;
+  height: 100%;
+}
+.page-container .container-left .pageTit {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.page-container .container-left .pageTit h4 {
+  font-weight: bolder;
+}
+.page-container .container-left .siblings {
+  padding-left: 15px;
+}
+.page-container .page-main {
+  margin-bottom: 2%;
+  min-height: 300px;
+}
+.page-container .page-main p {
+  line-height: 30px;
+}
+.page-container .page-main p img {
+  max-height: 600px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.page-container .page-main h4 {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 1%;
+}
+.page-container .page-main h6 {
+  width: 100%;
+  padding-bottom: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.page-container .page-main img {
+  max-height: 600px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.page-container .container-right .right-list {
+  padding: 15px;
+  box-shadow: 0 0 15px #ccc;
+  width: 255px;
+  max-height: 640px;
+  overflow: hidden;
+  z-index: 22;
+  background-color: #fffefa;
+}
+.page-container .container-right .right-list .title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+}
+.page-container .container-right .right-list .title h6 {
+  font-weight: bolder;
+}
+.page-container .container-right .right-list .title a {
+  font-size: 12px;
+  color: black;
+}
+.page-container .container-right .right-list ul li {
+  cursor: pointer;
+}
+.page-container .container-right .right-list ul li div {
+  font-size: 16px;
+  color: #50503f;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.page-container .container-right .right-list ul li div:hover {
+  color: #e6c49f;
+}
+.page-container .container-right .right-list ul li .ago {
+  font-size: 12px;
+  color: #a7a6a6;
+  margin-bottom: 0;
+}

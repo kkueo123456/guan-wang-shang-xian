@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px) {
+  .pageMain-body ul li h5 {
+    font-size: 15px;
+  }
+}
+.pageMain {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  margin-top: 48px;
+  padding-top: 4%;
+  padding-bottom: 40px;
+}
+.pageMain .pageMain-container {
+  background-color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  min-height: 500px;
+}
+.pageMain .pageMain-container .pageMain-title {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+.pageMain .pageMain-container .pageMain-body {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.pageMain .pageMain-container .pageMain-body ul {
+  margin-bottom: 3rem;
+}
+.pageMain .pageMain-container .pageMain-body ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f5f5f5;
+  display: flex;
+  min-height: 150px;
+}
+.pageMain .pageMain-container .pageMain-body ul li h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pageMain .pageMain-container .pageMain-body ul li .pageMain-img {
+  max-width: 200px;
+}
+.pageMain .pageMain-container .pageMain-body ul li .pageMain-img img {
+  width: 100%;
+  height: 100%;
+}
+.pageMain .pageMain-container .pageMain-body ul li:hover {
+  color: #e6c49f;
+}
+.pageMain .pageMain-container .pageMain-body .pagenum {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pageMain .pageMain-container .pageMain-body .pagenum input {
+  width: 30px;
+  height: 30px;
+  padding-left: 2px;
+  border: 1px solid #e6c49f;
+  border-radius: 5px;
+  margin-left: 4px;
+}
+.pageMain .pageMain-container .pageMain-body .pagenum button {
+  border: none;
+  background: none;
+  background: #e6c49f;
+  height: 30px;
+  color: white;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.pageMain .pageMain-container .pageMain-body .pagenum .pagenum2 {
+  display: inline-block;
+}
+.pageMain .pageMain-container .pageMain-body .pagenum span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #e6c49f;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pageMain .pageMain-container .pageMain-body .pagenum .active2 {
+  background-color: #e6c49f;
+  color: white;
+}

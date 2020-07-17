@@ -1,0 +1,342 @@
+@media screen and (max-width: 768px) {
+  .container .public .display-4 {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+  .container .public h3 {
+    font-size: 1.2rem !important;
+    text-align: center;
+  }
+  .container .public p {
+    text-align: center;
+  }
+  .appraisal .appraisal-Left-Bottom p {
+    text-align: center;
+  }
+  .appraisal-Left-Bottom-img {
+    text-align: center;
+  }
+  .appraisal-Right img {
+    margin-left: 50px;
+  }
+  .brand .brand-container ul li {
+    margin-left: 0 !important;
+    height: 68px;
+  }
+  .video .douyin-right {
+    padding-top: 0;
+  }
+  .video .douyin-right .douyin-women .douyin-list {
+    margin-left: 3% !important;
+  }
+  .video-row .douyin-right .douyin-title h3,
+  p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .video-row .douyin-women ul li h6 {
+    text-align: center;
+    padding-left: 0;
+  }
+  .video-row .douyin-women ul li p {
+    font-size: 12px;
+  }
+  .tb-container .douyin-title h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .tb .tb-video ul li {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .newsMain ul li p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .video-row .douyin-big {
+    width: 270px;
+  }
+  .video-row .douyin-big img {
+    width: 270px;
+  }
+}
+.wrap {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.swiper-banner {
+  width: 100vw;
+  padding: 0 !important;
+}
+.swiper-banner .row {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.swiper-banner .row .col {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.swiper-banner .carousel-inner .carousel-item img {
+  height: 100%;
+  max-height: 590px;
+  min-height: 125px;
+}
+.swiper-banner .carousel-control-prev-icon {
+  width: 25px;
+  height: 25px;
+}
+.swiper-banner .carousel-control-next-icon {
+  width: 25px;
+  height: 25px;
+}
+.appraisal-container {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.appraisal-Left-Top {
+  margin-bottom: 1%;
+}
+.appraisal-Left-Top .more a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+.news-container .appraisal-Left-Top {
+  display: flex;
+  justify-content: space-between;
+}
+.appraisal-Left-Top .display-4 {
+  font-size: 19px;
+  font-weight: bolder;
+}
+.appraisal-Left-Top h3 {
+  font-weight: 1000;
+  font-size: 2.2rem;
+  padding-left: 3px;
+  padding-bottom: 15px;
+}
+.appraisal-Left-Bottom p {
+  padding-left: 3px;
+  font-size: 13px;
+  font-family: PingFangSC-Semibold, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 3%;
+}
+.appraisal-Left-Bottom-img img {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.appraisal-Left-Bottom img:nth-child(2) {
+  margin-left: 10px;
+}
+.appraisal-Right img {
+  max-height: 380px;
+  width: 100%;
+  height: 100%;
+}
+.appraisal-Right-Right {
+  padding-top: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.appraisal-Right-Right .app-Right-Top p .jumpNum {
+  color: #666666;
+}
+.appraisal-Right .app-Right-Top h6 {
+  font-family: PingFangSC-Semibold, sans-serif;
+  font-weight: bolder;
+  color: #b3b3b3;
+}
+.appraisal-Right .app-Right-Top p {
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 0;
+}
+.sell {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #f2efe8;
+}
+.sell-container-Top {
+  margin-bottom: 30px;
+}
+.sell .sell-container-Top-Left {
+  padding-top: 3%;
+}
+.sell-container-Top .display-4 {
+  font-size: 19px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 2%;
+}
+.sell-container-Top h3 {
+  font-weight: bolder;
+  font-size: 2.2rem;
+  padding-left: 3px;
+  text-align: center;
+}
+.sell-container-Top p {
+  padding-left: 3px;
+  text-align: center;
+  font-size: 13px;
+  font-family: PingFangSC-Semibold, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 3%;
+}
+.sell-Left-Bottom {
+  text-align: center;
+  margin-top: 5%;
+}
+.sell-Left-Bottom img {
+  width: 100%;
+  height: 100%;
+}
+.sell-container-Top-Right img {
+  width: 100%;
+  height: 100%;
+}
+.sell-container-Bottom .sell-container-Bottom-Left img {
+  width: 100%;
+  height: 100%;
+}
+.sell-container-Bottom-Right .huishou-pub {
+  padding-left: 4%;
+}
+.sell-container-Bottom-Right {
+  padding-top: 8%;
+}
+.sell-container-Bottom-Right .display-4 {
+  font-size: 22px;
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 2%;
+}
+.sell-container-Bottom-Right h3 {
+  font-weight: bolder;
+  font-size: 2.2rem;
+  text-align: left;
+}
+.sell-container-Bottom-Right p {
+  text-align: left;
+  font-size: 13px;
+  font-family: PingFangSC-Semibold, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+}
+.sell-container-Bottom-Right .huishou {
+  color: red;
+  font-weight: 600;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+.list-container {
+  padding-top: 1%;
+}
+.bags-list {
+  margin-top: 1%;
+  margin-bottom: 30px;
+}
+.bags-list ul {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+.bags-list ul li {
+  margin-bottom: 15px;
+}
+.bags-list ul li .bags-list-wrap {
+  border: 1px solid #f3eeee;
+  padding: 0px 10px 10px 10px;
+  cursor: pointer;
+  height: 100%;
+}
+.bags-list ul li .bags-list-wrap p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.bags-list ul li .bags-list-wrap p span {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.bags-list ul li .list-top img {
+  width: 100%;
+  height: 100%;
+}
+.bags-list ul li .bagsName {
+  min-height: 36px;
+}
+.bags-list ul .bags-list-wrap:hover {
+  box-shadow: 0 0 20px #ccc;
+  transition: 0.2s linear;
+}
+.news {
+  background-color: white;
+  box-shadow: 0 0 60px #e0e0e0;
+}
+.news-container {
+  padding-top: 15px;
+}
+.newsMain {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 200px;
+  overflow: hidden;
+}
+.newsMain ul li {
+  display: flex;
+  border-bottom: 1px solid #bababa;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.newsMain ul li p:hover {
+  color: #e6c49f;
+}
+.newsMain ul li a {
+  text-decoration: none;
+  text-overflow: ellipsis;
+}
+.newsMain ul li a .title {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 0;
+}
+.neiRong {
+  margin-left: 20px;
+  overflow: hidden;
+}
+.neiRong p {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.brand-container {
+  padding-top: 20px;
+  overflow: hidden;
+  padding-bottom: 5%;
+}
+.brand-container ul {
+  margin-top: 22px;
+}
+.brand-container ul li {
+  width: 140px;
+  height: 80px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  float: left;
+  margin-left: 35px;
+  overflow: hidden;
+}
+.brand-container ul li img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}

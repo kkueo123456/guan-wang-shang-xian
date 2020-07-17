@@ -1,0 +1,124 @@
+@import (reference) "../base.less";
+
+// 导航
+.indexNav {
+    width: 100%;
+    height: 48px;
+    background-color: rgb(12,12,12);
+    color: white;
+    z-index: 100;
+}
+
+//底部
+.footer-container-fluid {
+    background:url('../../img/index/beijing.png') no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid;
+    padding-bottom: 20px;
+}
+
+.footer-container-fluid p {
+    color: white;
+    text-align: center;
+}
+
+.footer-container-fluid .footer-container {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -35px;
+    margin-bottom: 30px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0 0 10px rgb(204, 204, 204);
+}
+
+//底部凸起部分
+.footer{
+    margin-top: 5px;
+}
+.footer-container .titleLogo {
+    width: 145px;
+    height: 34px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.footer-container .titleLogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-container .advText {
+    color: black;
+    font-size: 22px;
+
+}
+
+.advPic {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #4b4b4b;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.advHover a {
+    width: 40px;
+    height: 40px;
+    display:inline-block;
+    color: #8c8d92;
+    text-decoration: none;
+}
+.footer-container .advHover a:hover{
+    text-decoration: none !important;
+}
+
+.advPic a span {
+    font-size: 40px;
+    color: #8c8d92;
+}
+.advPic .advHover .weCheat-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -100px;
+    margin-left: -28px;
+    // background: url('../../img/index/zb_03.png') no-repeat;
+    background-size: 100%;
+    display: none;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.address {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.advHover:nth-child(1) a span:hover{
+    color: rgb(252, 231, 16);
+}
+.advHover:nth-child(2) a span:hover{
+    color: rgb(39, 239, 234);
+}
+.advHover:nth-child(3) a span:hover{
+    color: rgb(255, 68, 1);
+}
+// 电话与地址
+.footer .phone{
+    text-align: center;
+    font-size: 15px;
+}
+.address .row{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.address .phone-add{
+    white-space: nowrap;
+}

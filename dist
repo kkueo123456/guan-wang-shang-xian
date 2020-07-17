@@ -1,0 +1,118 @@
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var baseUrl = "http://47.94.129.72:8001/";
+var pageListUrl = baseUrl + 'html/ActicleList';
+
+var PageMainUrl = baseUrl + 'html/ArticleDetails';
+
+var phoneUrl = baseUrl + 'html/ContactUsAdd';
+exports.default = {
+  pageListUrl: pageListUrl,
+  PageMainUrl: PageMainUrl,
+  phoneUrl: phoneUrl
+};
+},{}],2:[function(require,module,exports){
+'use strict';
+
+var _public = require('./public/public.js');
+
+var _public2 = _interopRequireDefault(_public);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+    //引入导航栏
+    $(".indexNav").load('../nav.html');
+    $.ajax({
+        'url': './json/banner.json',
+        'type': 'get',
+        "dataType": "json",
+        'success': function success(data) {
+            $(data).each(function (index, value) {
+                //循环添加轮播图
+                $('.carousel-inner').append("<div class='carousel-item' data-interval='3500'><a><img src=" + value.img + " class='d-block w-100' alt='二手奢侈品回收'></a></div>");
+                // 循环添加轮播图下方圆点
+                $('.carousel-indicators').append("<li data-target='#carouselExampleIndicators' data-slide-to=" + index + "></li>");
+            });
+            // 第一个轮播图添加的类名
+            $('.carousel-item').eq(0).addClass('active');
+            // 第一个圆点添加的类名
+            $('.carousel-indicators li').eq(0).addClass('active');
+        }
+    });
+
+    //数字增加动画
+    // 人数
+    var firstMan = 100;
+    var lastMan = 167322;
+    var ManTime = parseInt(lastMan / 80);
+    var manTimer = setInterval(function () {
+        firstMan = firstMan + ManTime;
+        if (firstMan >= lastMan) {
+            firstMan = lastMan;
+            clearInterval(manTimer);
+        }
+        $('.app-Right-Top .people .jumpNum').html(firstMan);
+    }, 50);
+    //金额 
+    var moneyNum = 500;
+    var moneyFinalNum = 8625736;
+    var moneyTime = parseInt(moneyFinalNum / 80);
+    var timer = setInterval(function () {
+        moneyNum = moneyNum + moneyTime;
+        if (moneyNum >= moneyFinalNum) {
+            moneyNum = moneyFinalNum;
+            clearInterval(timer);
+        }
+        $('.app-Right-Top .num .jumpNum').html(moneyNum);
+    }, 50);
+    //直播蒙版
+    $('.douyin-women ul li').hover(function () {
+        $(this).children(".mengban").css('display', 'block');
+    }, function () {
+        $(this).children(".mengban").css('display', 'none');
+    });
+    //跳转文章
+    $.ajax({
+        'url': _public2.default.pageListUrl,
+        'type': 'get',
+        "dataType": "json",
+        'success': function success(data) {
+            var listData = data.Data[0].List;
+            $(listData).each(function (index, value) {
+                $('.news-ul .row').append("<li class='col-lg-6 col-md-6 col-12'><div class='time'><div class='timeTop'>" + value.ShowDateTime + "</div><div class='timeBottom'></div></div><div class='neiRong'><p class='title'>" + value.Title + "</p></div></li>");
+            });
+            $('.news-ul').on('click', 'li', function () {
+                var index = $(this).index();
+                $(location).attr('href', '../page.html?id=' + listData[index].Id);
+            });
+        }
+    });
+    $('.news-ul').on('click', 'li', function () {
+        $(location).attr('href', '../page.html');
+    });
+    // $('.neiRong .title')
+    /*移动广告*/
+    // $(".brandUl li").hover(function () {
+    //     $(this).find("img").animate({
+    //         "left": "-10px"
+    //     }, 200)
+    // }, function () {
+    //     $(this).find("img").animate({
+    //         "left": "0px"
+    //     }, 100)
+    // })
+    $(".footer").load('../footer.html');
+    //划过蒙版
+    $('.video-Left-img').mouseover(function () {
+        $(this).children('.hidden-img-wrap').css('display', 'block');
+    });
+    $('.video-Left-img').mouseout(function () {
+        $(this).children('.hidden-img-wrap').css('display', 'none');
+    });
+})();
+},{"./public/public.js":1}]},{},[2]);

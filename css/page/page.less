@@ -1,0 +1,133 @@
+@import (reference) "../base.less";
+@media screen and (max-width: 768px){
+    .page-container p{
+        text-align: left !important;
+    }
+}
+html,
+body {}
+
+.page-container {
+    padding-bottom: 4%;
+    padding-top: 2%;
+
+    .title-logo-row {
+        padding-left: 0 !important;
+
+        .title-logo {
+            padding-left: 0 !important;
+
+            img {
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+    }
+
+    .container-left {
+        .pageTit {
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+            text-align: center;
+
+            h4 {
+                font-weight: bolder;
+            }
+        }
+        .siblings{
+            padding-left: 15px;
+        }
+    }
+
+    .page-main {
+        margin-bottom: 2%;
+        min-height: 300px;
+        p {
+            line-height: 30px;
+
+            img {
+                max-height: 600px;
+                margin-top: 1%;
+                margin-bottom: 1%;
+            }
+        }
+
+        h4 {
+            text-align: center;
+            font-weight: bolder;
+            margin-top: 1%;
+        }
+
+        h6 {
+            width: 100%;
+            padding-bottom: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        img {
+            max-height: 600px;
+            margin-top: 1%;
+            margin-bottom: 1%;
+
+        }
+
+    }
+
+    .container-right {
+        .right-list {
+            padding: 15px;
+            box-shadow: 0 0 15px #ccc;
+            // min-width: 255px;
+            // max-width: 255px;
+            width: 255px;
+            max-height: 640px;
+            overflow: hidden;
+            z-index: 22;
+            background-color: rgb(255, 254, 250);
+
+            .title {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #ccc;
+                margin-bottom: 10px;
+                padding-bottom: 8px;
+
+                h6 {
+                    font-weight: bolder;
+
+                }
+
+                a {
+                    font-size: 12px;
+                    color: black;
+                }
+            }
+
+            ul {
+                li {
+                    cursor: pointer;
+                    div {
+                        font-size: 16px;
+                        color: rgb(80, 80, 63);
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+
+                    div:hover {
+                        color: rgb(230, 196, 159);
+                    }
+
+                    .ago {
+                        font-size: 12px;
+                        color: rgb(167, 166, 166);
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
